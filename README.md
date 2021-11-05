@@ -15,17 +15,17 @@ Foram declaradas 7 variáveis iniciais são elas:
 
 * **Estrutura do código**
 
-De inicio um ''c printf ''  solicita ao usuário que insira o resultado de um **GreNal**, neste ponto o usuário deve informar o placar do jogo em questão, por exemplo:
+De inicio um ```c printf ```  solicita ao usuário que insira o resultado de um **GreNal**, neste ponto o usuário deve informar o placar do jogo em questão, por exemplo:
 
-''C
+```C
         printf("digite os gols do inter e depois do gremio: ");
         scanf("%d %d", &x, &y);
     \\ Exemplo de dado inserido: 3x2
-''
+```
 
 Após o sistema utiliza IF e Else para determinar para quem irá a pontuação do jogo.
 
-''C
+```C
     if(x > y)
 	{
 		inter++;	
@@ -38,10 +38,10 @@ Após o sistema utiliza IF e Else para determinar para quem irá a pontuação d
 	{
 		empate++;
 	}
-''
+```
 Então ele solicita se o usuário deseja inserir um novo resultado utilizando uma estrutura de **Do - While** conforme exemplo: 
 
-''C
+```C
 	    do
 		{
 			printf("Novo grenal (1-sim 2-nao)\n");
@@ -50,13 +50,14 @@ Então ele solicita se o usuário deseja inserir um novo resultado utilizando um
 		
 		if(vax!=1)
 			break;
-''
+```
 
-**Resultado** 
+
+# **Resultado** 
 
 Após o sistema utiliza outra esturua de **IF - Else** para definir qual time obteve mais vitórias no **clássico GreNal** conforme exemplo: 
 
-''C
+```C
     printf("%d grenais\n", jogo);
         printf("Vitorias doInter:%d\nVitorias doGremio:%d\nEmpates:%d\n", inter, gremio, empate);
         
@@ -72,4 +73,4 @@ Após o sistema utiliza outra esturua de **IF - Else** para definir qual time ob
         {
             printf("Nao houve vencedor\n");
         }
-''
+```
