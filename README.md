@@ -1,4 +1,4 @@
-#CONTADOR DE VITÓRIAS EM GRENAIS
+# CONTADOR DE VITÓRIAS EM GRENAIS
 
 O obejtivo deste programa é exibir qual time ganhou mais grenais a partir da inserção do numero de gols para cada time **por parte do usuário**, todos os dados são ficticios. 
 
